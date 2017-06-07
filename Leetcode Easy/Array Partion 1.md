@@ -14,33 +14,50 @@ Note:
 n is a positive integer, which is in the range of [1, 10000].
 All the integers in the array will be in the range of [-10000, 10000].
 ```
+* Self Explanation
+  * max(sun(min(ai,bi)))
+  * for all pairs from i =0 to i = n, the sum of the min nunmber in each pair as max as possible, and return the max sum
+
 ## Things need to know
-* what is Hamming distance
-  * Hamming distance: the Hamming distance between two strings of equal length is the number of positions at which the corresponding symbols are different
-* Bitwise operators
-  * & : return 1 if both bit are the same
-  * | : return 1 if any bit is exit
-  * ^ : return 1 if two bit are different
-* Operators review
-  * ~  : change to 1 if current bit is 0, change to 0 if current bit is 1
-  * << : bit move left (A<<1, A move 1 bit toward left)
-  * \>> : bit move right (A>>1, A move 1 bit toward right)
+#### C++
+* Sort()
+  * sort(nums.begin( ), nums.end( ));
+   * Sorts the elements in the range [first,last) into ascending order
+   *
+  * nums.begin( )
+   * get the very first vetcor< int>
+  * numbs.end( )
+   * get the end vector< int>
+* zise()
+  * nums.size();
+   * Get the length of a vector< int>
+   *  Returns the number of elements in
+ the vector.
+* vector< int>
+  * Parameters
+   * alloc
+   * n : Initial container size
+   * val
+   * first, last
+   
+#### Java
+* get int[] array length
+ * int array_length= array.length;
+
 
 ## code!
 ### C++
 `````c++
 class Solution {
 public:
-    int hammingDistance(int x, int y) {
-        int count = 0;
-        int z = x^y;
-        while (z > 0){
-            if(((z>>1<<1)-z) != 0){ // move z to right then back left, if it's the same value with before, which means the last digit is 0, otherwise counter +1
-            count++;
-            }
-            z = z>>1;
-        }
-        return count;
+    int arrayPairSum(vector<int>& nums) {
+         sort(nums.begin(), nums.end());
+         int n = nums.size();
+         int sum = 0;
+         for(int i = 0; i< n; i = i+2){
+             sum += nums[i];
+         }
+         return sum;
     }
 };
 `````
@@ -48,9 +65,14 @@ public:
 ### Java
 ```javascript
 public class Solution {
-    public int hammingDistance(int x, int y) {
-        return Integer.bitCount(x^y); //Java had this special function which can count bit.
-        // remember this function is under Integer.bitCount()
+    public int arrayPairSum(int[] nums) {
+        Arrays.sort(nums);
+        int n = nums.length;
+        int sum = 0 ;
+        for (int i = 0 ; i < n; i = i+2){
+            sum += nums[i];
+        }
+        return sum;
     }
 }
 ```
