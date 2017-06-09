@@ -30,7 +30,7 @@ mask         = 11111000
 ~mask & ~num = 00000010
 ```
 
-## Things need to know
+## Background information
 * ### [Two's Complement](link http://www.cs.uwm.edu/~cs151/Bacon/Lecture/HTML/ch03s09.html )
  * A positive integer in two's complement always has a 0 in the leftmost bit (sign bit) and is represented the same way as an unsigned binary integer.
  *  Exercise & Examples

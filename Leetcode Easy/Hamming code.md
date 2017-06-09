@@ -24,7 +24,7 @@ Explanation:
 The above arrows point to positions where the corresponding bits are different.
 
 ```
-## Things need to know
+## Background information
 * what is Hamming distance
   * Hamming distance: the Hamming distance between two strings of equal length is the number of positions at which the corresponding symbols are different
 * Bitwise operators

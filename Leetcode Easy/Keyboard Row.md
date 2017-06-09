@@ -13,12 +13,12 @@ You may assume the input string will only contain letters of alphabet.
 
 ```
 
-## Things need
+## Background information
 * #### C++
   * unordered_set<>
     * Unordered sets are containers that store unique elements in no particular order, and which allow for fast retrieval of individual elements based on their value.
   * tolower(c)
-   * set all the char in current string c to lower case
+    * set all the char in current string c to lower case
 
 # Code
 * #### C++

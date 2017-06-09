@@ -20,7 +20,7 @@ test case: "Let's take LeetCode contest"
       * set start to new value at the end of swap
   * else keep end++
 
-## Things need to know
+## Background information
 * #### C++
   * Get the length of a string
     * s.length( )

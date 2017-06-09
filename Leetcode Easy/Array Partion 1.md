@@ -18,7 +18,7 @@ All the integers in the array will be in the range of [-10000, 10000].
   * max(sun(min(ai,bi)))
   * for all pairs from i =0 to i = n, the sum of the min nunmber in each pair as max as possible, and return the max sum
 
-## Things need to know
+## Background information
 #### C++
 * Sort()
   * sort(nums.begin( ), nums.end( ));
