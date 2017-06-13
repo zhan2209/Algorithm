@@ -7,6 +7,7 @@
  - [ ]  476 - Number Complement - 06/07
  - [ ]  557 - Reverse Words in a String III - 06/08.
  - [ ]  500 - Keyboard Row - 06/09
+ - [ ]  566 - Reshape the Matrix - 06/12
 
 
 
