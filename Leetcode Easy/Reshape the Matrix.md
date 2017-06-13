@@ -44,7 +44,12 @@ The given r and c are all positive.
 ````
 
 ## Background information
-
+* push_back()
+  * target.push_back(new item)
+  * Adds a new element at the end of the vector, after its current last element. The content of val is copied (or moved) to the new element.
+* pop_back()
+  * target.pop_back(new item)
+  * Removes the last element in the vector, effectively reducing the container size by one.
 
 
 
