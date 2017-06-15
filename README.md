@@ -11,7 +11,8 @@
  - [ ]  575 - Distribute Candies - 06/13
  - [ ]  412 - Fizz Buzz - 06/13
  - [ ]  496 - Next Greater Element I - 06/13
- - [ ]  463 - Island Perimeter - 06/13
+ - [x]  463 - Island Perimeter - 06/13
+ - [ ]  485 - Max Consecutive Ones - 06/15
 
 
 
