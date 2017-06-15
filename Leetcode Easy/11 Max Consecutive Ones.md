@@ -15,6 +15,7 @@ The length of input array is a positive integer and will not exceed 10,000
 ```
 ## Background
  * res = (res>=flag? res : flag);
+ * Use Greedy, from start to end, if the current length larger than the previous max_length, update the previous value else keep the previous value
 
 
 ## Code
