@@ -53,10 +53,18 @@ Note: The input will be a non-empty word consisting of uppercase and lowercase l
  y | 121 | 01111001	|-|Y | 089 | 01011001
  z | 122 | 01111010	|-|Z | 090 | 01011010
 
+* Other special ASCII
 
+ 91 = [  square brackets or box brackets, opening bracket <br>
+ 92 = \  Backslash , reverse slash <br>
+ 93 = ]  box brackets or square brackets, closing bracket <br>
+ 94 = ^  Circumflex accent or Caret <br>
+ 95 = _   underscore , understrike , underbar or low line<br>
+ 96 = \` Grave accent <br>
 
  * word[i] <= 'Z' which compared the ASCII value, point to [A-Z]
 
+*  [More ASCII code value](http://www.theasciicode.com.ar/ascii-table-characters.pdf)
 
 ## Code
 ```c++
