@@ -13,7 +13,8 @@
  - [ ]  496 - Next Greater Element I - 06/13
  - [x]  463 - Island Perimeter - 06/13
  - [ ]  485 - Max Consecutive Ones - 06/15
- - [ ]  521 - Longest Uncommon Subsequence I - 06/15 
+ - [ ]  521 - Longest Uncommon Subsequence I - 06/15
+ - [ ]  520 - Detect Capital - 06/21
 
 
 # Reference & Website

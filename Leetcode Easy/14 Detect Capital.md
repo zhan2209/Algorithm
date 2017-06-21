@@ -1,4 +1,4 @@
-# Detect Capital
+# 520 Detect Capital
 ## Description
 ```
 Given a word, you need to judge whether the usage of capitals in it is right or not.
@@ -23,7 +23,7 @@ Note: The input will be a non-empty word consisting of uppercase and lowercase l
 ## Background Information
  * [Letter'e ASCII Value](http://sticksandstones.kstrom.com/appen.html)
 
- 
+
  Letter	| ASCII |	Binary	 |-| Letter	  | ASCII 	 | Binary
  -------|-------|----------|-|----------|----------|-------
  a	|097 | 01100001	|-|A | 065 | 01000001
