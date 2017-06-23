@@ -15,6 +15,8 @@
  - [ ]  485 - Max Consecutive Ones - 06/15
  - [ ]  521 - Longest Uncommon Subsequence I - 06/15
  - [ ]  520 - Detect Capital - 06/21
+ - [ ]  448 - Find all numbers disappear - 06/22
+ - [ ]  389 - Find the Difference - 06/22
 
 
 # Reference & Website
