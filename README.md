@@ -17,6 +17,7 @@
  - [ ]  520 - Detect Capital - 06/21
  - [ ]  448 - Find all numbers disappear - 06/22
  - [ ]  389 - Find the Difference - 06/22
+ - [ ]  226 - Invert Binary Tree - 06/23
 
 
 # Reference & Website
