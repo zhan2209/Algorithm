@@ -34,6 +34,13 @@ The range of m and n is [1,40000].
 The range of a is [1,m], and the range of b is [1,n].
 The range of operations size won't exceed 10,000.
 ```
+
+## Background
+* The point of this question is to find the minimum range of all the square in the list
+* Two Step
+  * Find the minimum [i,0]
+  * find the minimum [i,1]
+  
 ## Code
 ```c++
 class Solution {
