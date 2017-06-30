@@ -24,6 +24,7 @@
  - [ ]  404 - Sum of Left Leaves -- 06/28
  - [ ]  100 - Same Tree -- 06/29
  - [ ]  628 - Maximum Product of Three Numbers -- 06/29
+ - [ ]  599 - Minimum Index Sum of Two Lists -- 06/30
 
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
