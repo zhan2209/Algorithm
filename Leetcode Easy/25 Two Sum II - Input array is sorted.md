@@ -49,8 +49,8 @@ public:
     }
 };
 ```
-
-
+* time O(nlogn) :arrow_up:
+* time O(n) :arrow_down:
 ```c++
 class Solution {
 public:
