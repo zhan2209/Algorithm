@@ -22,6 +22,13 @@ The result can be in any order.
   * Convert set to vector
     * vector<int>(set.begin(),set.end());
 
+  * Check the last element in a vector
+    * vector.back()
+  * insert element into vector
+    * vector.push_back(element.value)
+  * Check vector is empty or Note
+    * vector.empty()
+    
 ## Code
 ```c++
 class Solution {
