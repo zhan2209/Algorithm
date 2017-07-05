@@ -30,7 +30,7 @@ public:
     vector<int> twoSum(vector<int>& numbers, int target) {
         int index1,index2;
         for(int i = 0; i < numbers.size(); i++){
-            if(i<numbers.size()-1 && numbers[i]==numbers[i+1] && numbers[i]*2 != target) i++;
+            if(i<numbers.size()-1 && numbers[i]==numbers[i+1] && numbers[i]* 2 != target) i++;
             for(int j = i+1; j < numbers.size(); j++){
                 if(numbers[i] + numbers[j] == target){
                     index1 = i + 1;
