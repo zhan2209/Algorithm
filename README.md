@@ -32,6 +32,7 @@
  - [ ]  453 - Minimum Moves to Equal Array Elements -- 07/05
  - [ ]  383 - Ransom Note -- 07/05.
  - [x]  530 - Minimum Absolute Difference in BST
+ - [ ]  171 - Excel Sheet Column Number -- 07/05
 
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
