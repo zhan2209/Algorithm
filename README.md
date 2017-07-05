@@ -29,6 +29,7 @@
  - [ ]  492 - Construct the Rectangle -- 07/04
  - [ ]  455 - Assign Cookies -- 07/05
  - [ ]  349 - Intersection of Two Arrays --07/05
+ - [ ]  453 - Minimum Moves to Equal Array Elements -- 07/05
 
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
