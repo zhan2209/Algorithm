@@ -30,7 +30,8 @@
  - [ ]  455 - Assign Cookies -- 07/05
  - [ ]  349 - Intersection of Two Arrays --07/05
  - [ ]  453 - Minimum Moves to Equal Array Elements -- 07/05
- - [ ]  383 - Ransom Note -- 07/05
+ - [ ]  383 - Ransom Note -- 07/05.
+ - [x]  530 - Minimum Absolute Difference in BST
 
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
