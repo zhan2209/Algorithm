@@ -35,5 +35,6 @@
  - [ ]  171 - Excel Sheet Column Number -- 07/05
  - [ ]  168 - Excel Sheet Column Title -- 07/05
  - [ ]  563 - Binary Tree Tilt -- 07/06
+ - [ ]  387 - First Unique Character in a String -- 07/06
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
