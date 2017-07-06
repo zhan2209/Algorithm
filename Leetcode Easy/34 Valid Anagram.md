@@ -15,10 +15,12 @@ What if the inputs contain unicode characters? How would you adapt your solution
 ```
 
 ## Background
-* Check s and t are exactly the same or not (include both null)
-* Check s and t are the same length or not, if not same length, must be false
-* check all the char in s is in t
-* Check no extra char in s than t
+* Hash table -- the same as 33 (or #387 in leetcode)
+  * Check s and t are exactly the same or not (include both null)
+  * Check s and t are the same length or not, if not same length, must be false
+  * check all the char in s is in t
+  * Check no extra char in s than t
+
 
 ## Code
 ```c++
