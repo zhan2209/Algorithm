@@ -37,6 +37,7 @@
 -	[ ]	387	-	[	34	]	First Unique Character in a String -- 07/06
 -	[ ]	242	-	[	35	]	Valid Anagram -- 07/06
 - [ ] 409 - [ 36  ] Longest Palindrome -- 07/06
+- [ ] 504 - [ 37  ] Base 7 -- 07/07
 
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
