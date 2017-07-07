@@ -1,4 +1,3 @@
-
 # 492 Construct the Rectangle
 ## Description
 ```
