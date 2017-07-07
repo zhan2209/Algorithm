@@ -56,7 +56,28 @@ public:
                 }
             }
         }
-        return n > res? res+1 : res;
+        return n > res? res+1 : res; // return val must use res +1; if use res++ then the actual return will still be res
+    }
+};
+```
+```c++
+class Solution {
+public:
+    int longestPalindrome(string s) {
+        unordered_map<char, int> table;
+        for(char ch: s){
+            ++table[ch];
+        }
+        if(table.size() == 1) return s.size();    
+        int res = 0;
+        // simplified the for loop
+        for(int i = 0; i < s.size(); i++){
+            while(table[s[i]] > 1){
+                res += 2;
+                table[s[i]] -= 2;
+            }
+        }
+        return s.size() > res? res+1 : res;
     }
 };
 ```
