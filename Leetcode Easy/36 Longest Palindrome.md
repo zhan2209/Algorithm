@@ -26,8 +26,9 @@ One longest palindrome that can be built is "dccaccd", whose length is 7.
   * if the number of the char can divided by 2, which means it can be Palindrome
     * so add the number to res and set the original val to 0
   * if the number can not divided by 2
-    * if it is 3,5,7,9 which is larger than 2 then add 2 to res until it's 1
-  * if at the end, the hashtable still has some char, we can get any 1 char in the middle of the Palindrome
+    * if it is 3,5,7,9 which is larger than 2 then add 2 to res
+    * -1 from the hashtable[ch] until it's 1
+  * if still some char left, we can get any 1 char in the middle of the Palindrome
 ## Code
 ```c++
 class Solution {
