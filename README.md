@@ -13,24 +13,24 @@
 -	[x]	463	-	[	10	]	Island Perimeter - 06/13
 -	[ ]	485	-	[	11	]	Max Consecutive Ones - 06/15
 -	[ ]	521	-	[	12	]	Longest Uncommon Subsequence I - 06/15
--	[ ]	520	-	[	13	]	Detect Capital - 06/21
--	[ ]	448	-	[	14	]	Find all numbers disappear - 06/22
--	[ ]	389	-	[	15	]	Find the Difference - 06/22
--	[ ]	226	-	[	16	]	Invert Binary Tree - 06/23
--	[ ]	104	-	[	17	]	Maximum Depth of Binary Tree - 06/23
--	[ ]	617	-	[	18	]	Merge Two Binary Trees.md -- 06/28
--	[ ]	598	-	[	19	]	Range Addition II -- 06/28
--	[ ]	404	-	[	20	]	Sum of Left Leaves -- 06/28
--	[ ]	100	-	[	21	]	Same Tree -- 06/29
--	[ ]	628	-	[	22	]	Maximum Product of Three Numbers -- 06/29
--	[ ]	599	-	[	23	]	Minimum Index Sum of Two Lists -- 06/30
--	[ ]	167	-	[	24	]	Two Sum II - Input array is sorted -- 06/30
--	[ ]	492	-	[	25	]	Construct the Rectangle -- 07/04
--	[ ]	455	-	[	26	]	Assign Cookies -- 07/05
--	[ ]	349	-	[	27	]	Intersection of Two Arrays --07/05
--	[ ]	453	-	[	28	]	Minimum Moves to Equal Array Elements -- 07/05
--	[ ]	383	-	[	29	]	Ransom Note -- 07/05.
--	[x]	530	-	[	30	]	Minimum Absolute Difference in BST
+- [ ] 606 - [ 13  ] Construct String from Binary Tree
+-	[ ]	520	-	[	14	]	Detect Capital - 06/21
+-	[ ]	448	-	[	15	]	Find all numbers disappear - 06/22
+-	[ ]	389	-	[	16	]	Find the Difference - 06/22
+-	[ ]	226	-	[	17	]	Invert Binary Tree - 06/23
+-	[ ]	104	-	[	18	]	Maximum Depth of Binary Tree - 06/23
+-	[ ]	617	-	[	19	]	Merge Two Binary Trees.md -- 06/28
+-	[ ]	598	-	[	20	]	Range Addition II -- 06/28
+-	[ ]	404	-	[	21	]	Sum of Left Leaves -- 06/28
+-	[ ]	100	-	[	22	]	Same Tree -- 06/29
+-	[ ]	628	-	[	23	]	Maximum Product of Three Numbers -- 06/29
+-	[ ]	599	-	[	24	]	Minimum Index Sum of Two Lists -- 06/30
+-	[ ]	167	-	[	25	]	Two Sum II - Input array is sorted -- 06/30
+-	[ ]	492	-	[	26	]	Construct the Rectangle -- 07/04
+-	[ ]	455	-	[	27	]	Assign Cookies -- 07/05
+-	[ ]	349	-	[	28	]	Intersection of Two Arrays --07/05
+-	[ ]	453	-	[	29	]	Minimum Moves to Equal Array Elements -- 07/05
+-	[ ]	383	-	[	30	]	Ransom Note -- 07/05.
 -	[ ]	171	-	[	31	]	Excel Sheet Column Number -- 07/05
 -	[ ]	168	-	[	32	]	Excel Sheet Column Title -- 07/05
 -	[ ]	563	-	[	33	]	Binary Tree Tilt -- 07/06
