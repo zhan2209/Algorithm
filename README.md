@@ -39,6 +39,7 @@
 - [ ] 409 - [ 36  ] Longest Palindrome -- 07/06
 - [ ] 504 - [ 37  ] Base 7 -- 07/07
 - [x] 206 - [ 38  ] Reverse Linked List -- 07/12
+- [x] 401 - [ 40  ] Binary Watch -- 07/17
 
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
