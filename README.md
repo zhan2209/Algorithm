@@ -44,6 +44,7 @@
 - [ ] 447 - [ 41  ] Number of Boomerangs -- 07/23
 - [ ] 541 - [ 42  ] Reverse String II --07/31
 - [ ] 551 - [ 43  ]  Student Attendance Record I-- 07/31
+- [ ] 543 - [ 44  ] Diameter of Binary Tree -- 08/01
 
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
