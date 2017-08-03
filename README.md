@@ -45,6 +45,7 @@
 - [ ] 541 - [ 42  ] Reverse String II --07/31
 - [ ] 551 - [ 43  ] Student Attendance Record I-- 07/31
 - [ ] 108 - [ 44  ] Convert Sorted Array to Binary Search Tree -- 08/03
+- [ ] 415 - [ 45  ] Add Strings --08/03
 
 # Reference & Website
 * [C++ Chinese ](http://www.runoob.com/cplusplus/cpp-basic-syntax.html)  
