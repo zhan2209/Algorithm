@@ -23,6 +23,7 @@ Output: false
   * int as calaulate number
 
 ## code
+* 53s solution
 ```c++
 class Solution {
 public:
@@ -45,13 +46,14 @@ public:
 };
 ```
 
+* 19s solution
 ```c++
 class Solution {
 public:
     bool judgeCircle(string moves) {
         int x = 0, y = 0;
         for(int i = 0; i < moves.size(); i ++){
-            moves[i] == 'U'? x++ : x; //     moves[i] == 'U'? x++ : 0;
+            moves[i] == 'U'? x++ : x; //     
             moves[i] == 'D'? x-- : x; //     if(moves[i] == 'D') x--;
             moves[i] == 'L'? y-- : y;
             moves[i] == 'R'? y++ : y;
@@ -65,3 +67,26 @@ public:
     }
 };
 ```
+
+* 22s solution
+```C++
+class Solution {
+public:
+    bool judgeCircle(string moves) {
+        int x = 0, y = 0;
+        for(int i = 0; i < moves.size(); i ++){
+            moves[i] == 'U'? x++ : 0;
+            moves[i] == 'D'? x-- : 0;
+            moves[i] == 'L'? y-- : 0;
+            moves[i] == 'R'? y++ : 0;
+        }
+        if(x ==0 && y ==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+};
+```
+// I have no idea why set it to 0 is faster than set it to x or y
