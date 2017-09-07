@@ -44,3 +44,24 @@ public:
     }
 };
 ```
+
+```c++
+class Solution {
+public:
+    bool judgeCircle(string moves) {
+        int x = 0, y = 0;
+        for(int i = 0; i < moves.size(); i ++){
+            moves[i] == 'U'? x++ : x; //     moves[i] == 'U'? x++ : 0;
+            moves[i] == 'D'? x-- : x; // if(moves[i] == 'D') x--;
+            moves[i] == 'L'? y-- : y;
+            moves[i] == 'R'? y++ : y;
+        }
+        if(x ==0 && y ==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+};
+```
