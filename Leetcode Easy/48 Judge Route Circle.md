@@ -69,7 +69,8 @@ public:
 ```
 
 * 22s solution
-```C++
+
+```c++
 class Solution {
 public:
     bool judgeCircle(string moves) {
@@ -79,6 +80,11 @@ public:
             moves[i] == 'D'? x-- : 0;
             moves[i] == 'L'? y-- : 0;
             moves[i] == 'R'? y++ : 0;
+            /*
+            char tmp = moves[i];
+            tmp == 'U'? x++ : tmp == 'D'? x-- : 0;
+            tmp == 'L'? y-- : tmp == 'R'? y++ : 0;
+            */
         }
         if(x ==0 && y ==0){
             return true;
