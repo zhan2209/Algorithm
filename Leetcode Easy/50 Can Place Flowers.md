@@ -1,5 +1,5 @@
-
-# Description
+# 605. Can Place Flowers
+## Description
 ```
 Suppose you have a long flowerbed in which some of the plots are planted and some are not. However, flowers cannot be planted in adjacent plots - they would compete for water and both would die.
 
@@ -18,14 +18,14 @@ Note:
 
 ```
 
-# Background
+## Background
  ###### Alg 1. Add header 0 and  tail 0, then check all array
       1. flowerbed.insert(flowerbed.begin(), 0);
       2. flowerbed.push_back(0);
 
  Alg 2.
 
-# Code
+## Code
 ```c++
 class Solution {
 public:
@@ -49,7 +49,7 @@ public:
     }
 };
 ```
-#Test Case
+## Test Case
 ```
 [0,0,1,0,0]
 2
