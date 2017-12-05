@@ -29,6 +29,10 @@ public:
 };
 ```
 ##### For all the power of four number, after -1, it can be divided by 3 with reminder 0
+```
+4^n = (1+3)^n 
+```
+
 ```c++
 class Solution {
 public:
